@@ -60,5 +60,14 @@ while Pass_word != password:
         print("The password = " + password)
 
 
-import mysql 
-from mysql import connector
+
+
+import mysql.connector
+
+mydb = mysql.connector.connect(
+  host="127.0.0.1",
+  user="root",
+  password="Okwudili2009"
+)
+
+print(mydb)
