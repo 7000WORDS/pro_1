@@ -20,7 +20,7 @@ lockfile = "^0.12.2"
 brotli = "^1.0.7"
 cython = "^0.29.20"
 ordereddict = "^1.1"
-cryptography = "^2.9.2"
+cryptography = "^39.0.1"
 docutils = "^0.16"
 
 [tool.poetry.dev-dependencies]
